@@ -1,0 +1,46 @@
+*{
+    background-color: #a9dde6;
+    font-family: montserrat;
+    color: white;
+} 
+
+    
+header {
+    background-color: rgb(91, 202, 201);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+aside {
+    margin-top: 4vh;
+    height: 70vh;
+    width: 60vh;
+    background-color: rgb(150, 198, 150);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display: flex;
+}
+article{
+    background-color: yellowgreen;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    width:120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px ;
+}
+.image{
+    background-color: #fff;
+    width: 120px;
+    display: flex;
+    justify-content: space-between
+}
