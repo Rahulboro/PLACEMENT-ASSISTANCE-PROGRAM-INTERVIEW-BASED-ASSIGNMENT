@@ -5,13 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music player</title>
+    <style>
+        body {
+            background-color: #db5555;
+        }
+        .container{
+            height: 300px;
+            min-height: 200px;
+            max-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            position: absolute;
+            top: 30px; left: center;
+            color: rgb(220, 224, 114);
+            font-size: larger;
+            font-weight: 700;
+            background-color: #866363;
+            padding: 6px;
+            border-radius: 0.6em;
+        }
+        audio{
+            display: block;
+        }
+    </style>
 </head>
 <body>
-
-    <div class="container">MUSIC PLYER
+    <div class="container">
+        <p>MUSIC PLYER</p>
         <audio controls>
-            <source src="horse.ogg" type="audio/ogg">
-            <source src="horse.mp3" type="audio/mpeg">
+            <source src="./Hope by Ghostrifter - Cinematic - Drama - No Copyright.mp3" type="audio/ogg">
+            <source src="./Ooyy - Come 2gether.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
           </audio>
     </div>
