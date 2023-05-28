@@ -1,0 +1,38 @@
+*{
+    font-family: montserrat;
+}
+nav a img {
+    width: 150px;
+}
+nav input {
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 700px;
+    height: 40px;
+}
+nav{
+    padding: 10px 50px 10px 50px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.topnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topnav > a{
+    margin-left: 40px;
+}
+.navigationLink{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.crousal img{
+    width: 100%;
+}
+.crousal{
+    display: flex;
+}
