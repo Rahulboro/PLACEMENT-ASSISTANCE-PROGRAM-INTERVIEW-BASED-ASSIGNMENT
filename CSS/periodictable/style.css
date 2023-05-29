@@ -1,3 +1,8 @@
+h1{
+    color: #79ba64;
+    display: flex;
+    justify-content: center;
+}
 .container{
     padding: 5%;
 }
@@ -12,6 +17,21 @@
     justify-content: space-between;
     flex-direction: column;
 }
-.columns{
+.rows{
     height: 70px;
+}
+.rows1{
+    display: flex;
+}
+.helium1{
+    color: #000000;
+    background-color: #ffee00;
+    padding: 2%;
+    margin-left: 3%;
+    border: 1px solid black;
+
+}
+.he2{
+    display: flex;
+    justify-content: flex-end;
 }
