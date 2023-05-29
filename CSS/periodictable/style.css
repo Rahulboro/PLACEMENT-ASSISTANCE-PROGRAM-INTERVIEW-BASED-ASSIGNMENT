@@ -1,3 +1,6 @@
+*{
+    background-color: grey;
+}
 h1{
     color: #79ba64;
     display: flex;
