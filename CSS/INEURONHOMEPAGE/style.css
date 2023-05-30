@@ -36,7 +36,7 @@ nav{
 .crousal img{
     width: 99.8%;
 }
-
+/* pure hardworkHeading section  */
 .hardworkHeading > h2{
     display: flex;
     justify-content: center;
@@ -54,4 +54,29 @@ nav{
     height: 4px;
     background-color: #EA8E31;
     margin: 0px;
+}
+/* hardworkHeading cards  */
+.achievmentCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.card{
+    width: 500px;
+    height: 400px;
+}
+.card-img{
+    display: flex;
+    justify-content: space-around;
+    height: 160px;
+}
+.achievmentCard h3 {
+    color: #2C4480;
+    text-align: center;
+    font-size: 50px;
+}
+.achievmentCard span {
+    color: #454545;
+    font-size: 30px;
 }
