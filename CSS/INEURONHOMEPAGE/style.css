@@ -1,15 +1,16 @@
 *{
     font-family: montserrat;
 }
+/* top nav style */
 nav a img {
     width: 150px;
 }
 nav input {
-    border-color: blue;
+    border-color: #243C7B;
     border-width: 1px;
     border-radius: 6px;
     width: 700px;
-    height: 40px;
+    height: 45px;
 }
 nav{
     padding: 10px 50px 10px 50px;
@@ -17,6 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+/* style for nav link  */
 .topnav{
     display: flex;
     justify-content: center;
@@ -30,9 +32,26 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+/* style for crousal section  */
 .crousal img{
-    width: 100%;
+    width: 99.8%;
 }
-.crousal{
+
+.hardworkHeading > h2{
     display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    color:#243C7B;
+    margin: 40px 0px 5px 0px;
+}
+.yellowline {
+    display: flex;
+    justify-content: center;
+}
+.yellowline > p{
+    width: 150px;
+    height: 4px;
+    background-color: #EA8E31;
+    margin: 0px;
 }

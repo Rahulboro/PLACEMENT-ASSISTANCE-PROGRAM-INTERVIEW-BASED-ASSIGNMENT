@@ -1,3 +1,4 @@
+/* default styling  */
 *{
     background-color: grey;
 }
@@ -9,11 +10,13 @@ h1{
 .container{
     padding: 5%;
 }
+/* grouping styling  */
 .grouping{
     max-width: 1120px;
     display: flex;
     justify-content: space-between;
 }
+/* period styleing  */
 .period {
     max-width: 1140px;
     display:flex;
@@ -23,6 +26,7 @@ h1{
 .rows{
     height: 90px;
 }
+/* here start rows one styling  */
 .rows1{
     display: flex;
 }
@@ -40,19 +44,19 @@ h1{
     align-items: center;
     width:60px;
     height: 50px;
-    margin: 2px;
     border: solid #000000 3px;
 
 }
 .rows{
     display: flex;
 }
+/* here starts rows two styling */
 .pline2left {
     display: flex;
 }
 .pline2right{
     display: flex;
-    background-color: #fff;
+    height:min-content;
 }
 .boxy{
     background-color: #d7f030;
@@ -62,6 +66,14 @@ h1{
     align-items: center;
     width:60px;
     height: 50px;
-    margin: 2px;
+    margin-left: 3px;
     border: solid #000000 3px;
+}
+/* here starts rows three styling */
+.rows3{
+    display: flex;
+}
+.pline3{
+    display: flex;
+    justify-content: space-between;
 }
