@@ -162,3 +162,7 @@ h4{
     align-items: center;
     border-radius: .3em;
 }
+/* hackathon section style  */
+.hackathon-image img{
+    width: 99.8%;
+}
