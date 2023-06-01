@@ -29,6 +29,8 @@ nav{
 }
 .navigationLink{
     padding: 20px;
+    font-weight: 500;
+    font-size: 17px;
     display: flex;
     justify-content: space-around;
 }
@@ -203,7 +205,7 @@ h4{
 }
 .footer-card{
     width: 350px;
-    height: 450px;
+    height: 550px;
 }
 .footerlogo, .footerlogo img{
     width: 200px;
@@ -218,11 +220,15 @@ h4{
 }
 .socialmedia-icons img, .mail-image img{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
+    background-color: #fff;
     width: 25px;
-    padding: 0px 2px 0px 2px;
+    margin: 0px 3px 0px 3px;
+    border-radius: 4em;
+
 }
 .yellowline{
+    margin-top: 30px;
     width: 350px;
     height: 5px;
     background-color: #F7A754;
@@ -231,13 +237,22 @@ h4{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     color: #fff;
+    font-weight: 300;
 }
 .address img{
-    width: 25px;
+    height: 25px;
 }
 .email{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: start;
+    color: #fff;
+    font-weight: 300;
 }
+.iso-mark{
+    margin-top: 50px;
+}
+/* footer company section  */
