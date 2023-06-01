@@ -195,3 +195,49 @@ h4{
 .partnerlinks img{
     width: 150px
 }
+/* footer section  */
+.footer{
+    background-color: #243C7B;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-card{
+    width: 350px;
+    height: 450px;
+}
+.footerlogo, .footerlogo img{
+    width: 200px;
+    padding: 10px;
+}
+.socialmedia{
+    display: flex;
+}
+.socialmedia-icons{
+    display: flex;
+    padding: 0px 2px 0px 2px;
+}
+.socialmedia-icons img, .mail-image img{
+    display: flex;
+    justify-content: space-around;
+    width: 25px;
+    padding: 0px 2px 0px 2px;
+}
+.yellowline{
+    width: 350px;
+    height: 5px;
+    background-color: #F7A754;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.address img{
+    width: 25px;
+}
+.email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
