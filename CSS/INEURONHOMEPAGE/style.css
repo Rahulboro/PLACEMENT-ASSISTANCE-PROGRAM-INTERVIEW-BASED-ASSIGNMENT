@@ -167,3 +167,14 @@ h4{
 .hackathon-image img{
     width: 99.8%;
 }
+/* our product section  */
+.ineuronServices{
+    display: flex;
+    justify-content: space-around;
+}
+.product-card{
+    width: 300px;
+}
+.productCard-img img{
+    height: 160px;
+}
