@@ -149,6 +149,7 @@ h2{
 }
 h4{
     color: #2C4480;
+    font-size: 21px;
 }
 .coursePrice{
     display: flex;
@@ -168,13 +169,20 @@ h4{
     width: 99.8%;
 }
 /* our product section  */
-.ineuronServices{
+.ineuronServicestop{
     display: flex;
     justify-content: space-around;
 }
 .product-card{
     width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: 20px;
 }
 .productCard-img img{
     height: 160px;
+}
+.ineuronServicebottom{
+    display: flex;
+    justify-content: center;
 }
