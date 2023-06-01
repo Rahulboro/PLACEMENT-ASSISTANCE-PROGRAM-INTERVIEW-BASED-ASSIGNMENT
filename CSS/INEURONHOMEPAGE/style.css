@@ -186,3 +186,12 @@ h4{
     display: flex;
     justify-content: center;
 }
+/* our partner section  */
+.partnercard{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly
+}
+.partnerlinks img{
+    width: 150px
+}
