@@ -47,7 +47,7 @@ h2{
     color:#243C7B;
     margin: 40px 0px 5px 0px;
 }
-.yellowline {
+.yellowlinesmall {
     display: flex;
     justify-content: center;
 }
@@ -81,7 +81,8 @@ h2{
 }
 .achievmentCard span {
     color: #454545;
-    font-size: 30px;
+    font-size: 27px;
+    font-weight:600
 }
 /* achiever's work with section  */
 .achievment{
