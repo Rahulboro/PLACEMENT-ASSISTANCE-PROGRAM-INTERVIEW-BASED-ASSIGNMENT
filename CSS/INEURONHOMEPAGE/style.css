@@ -257,3 +257,20 @@ h4{
     margin-top: 50px;
 }
 /* footer company section  */
+.company-container h5{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.short-yellowline{
+    margin-top: 30px;
+    width: 60%;
+    height: 2px;
+    background-color: #F7A754;
+}
+.company-links{
+    margin-top: 40px;
+}
+.cmp {
+    margin: 20px;
+}
