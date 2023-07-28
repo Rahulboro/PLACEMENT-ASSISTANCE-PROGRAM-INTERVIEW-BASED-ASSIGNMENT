@@ -95,6 +95,10 @@ h2{
     align-items: center;
     height: 200px;
 }
+.liveCardContainer .livecard img{
+    height: 1.6rem;
+    width:90%;
+}
 /* hall of fame  */
 .hallCard{
     display: flex;
